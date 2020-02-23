@@ -59,12 +59,16 @@ plot_dendrogram(model, truncate_mode='level', p=3)
 plt.xlabel("Number of points in node (or index of point if no parenthesis).")
 plt.show()
 """
-X = dataset
+from sklearn.decomposition import PCA
+pca = PCA(n_components = 2)
+X = pca.fit_transform(dataset)
+explained_variance = pca.explained_variance_ratio_
+
 from sklearn.cluster import KMeans
 wcss = []
 for i in range(1, 11):
     kmeans = KMeans(n_clusters = i, init = 'k-means++', random_state = 42)
-    kmeans.fit(dataset)
+    kmeans.fit(X)
     wcss.append(kmeans.inertia_)
 plt.figure(1)
 plt.plot(range(1, 11), wcss)
@@ -80,7 +84,7 @@ y_kmeans = kmeans.fit_predict(X)
 pd.DataFrame(y_kmeans)[0].value_counts()
 
  
-
+"""
 # Using the dendrogram to find the optimal number of clusters
 import scipy.cluster.hierarchy as sch
 dendrogram = sch.dendrogram(sch.linkage(X, method = 'complete'))
@@ -155,3 +159,4 @@ hc = AgglomerativeClustering(n_clusters = 5, affinity = 'euclidean', linkage = '
 y_hc = hc.fit_predict(X)
 
 pd.DataFrame(y_hc)[0].value_counts()
+"""
