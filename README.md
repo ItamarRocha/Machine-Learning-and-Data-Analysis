@@ -1,2 +1,2 @@
-# AI
-Repository with small projects
+# Data Analysis and Manipulation
+
