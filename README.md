@@ -10,6 +10,7 @@
 ## Table of Contents
 
 - [Analysis and practice](#analysis-and-practice)
+- [Projects](#projects)
 - [Clone](#clone)
 - [Author](#author)
 - [Support](#support)
@@ -30,6 +31,14 @@ Here are listed some of the projects presented in this repository:
 * [**Einstein hospital - covid challenge**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/blob/master/covid_einstein/Untitled.ipynb)
 * [**Airbnb London**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/blob/master/airbnb/Airbnb.ipynb)
 ---
+
+## Projects:
+Some of the projects I've worked on
+
+* [**Binary Bot**](https://github.com/ItamarRocha/binary-bot)
+* [**Bass tab generator**](https://github.com/joallace/bass-generator)
+* [**Medway Student allocation**](https://github.com/ItamarRocha/Operations-Research/tree/master/projects/medway)
+
 ## Clone
 
 - Clone this repo to your local machine using
