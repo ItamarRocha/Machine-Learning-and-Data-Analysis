@@ -26,8 +26,7 @@ Here are listed some of the projects presented in this repository:
 * [**Hospital Laureano data preprocessing script**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/ML_practice/med)
 * [**Metro flow analysis**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/analysis/metro)
 * [**Music emotions**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/blob/master/analysis/emotions/emotions-final.ipynb)
-* [**Live sellers with hierarchical clustering**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/analysis/live%20sellers)
-* [**Live sellers with Kmeans clustering**](https://github.com/ItamarRocha/analysis/Data-Analysis-and-Manipulation/blob/master/live%20sellers/Kmeans.ipynb)
+* [**Live sellers with hierarchical clustering and Kmeans clustering**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/analysis/live%20sellers)
 * [**Einstein hospital - covid challenge**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/blob/master/analysis/covid_einstein/Untitled.ipynb)
 * [**Airbnb London**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/analysis/airbnb)
 ---
