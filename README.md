@@ -47,7 +47,7 @@ Some of the projects I've worked on
 
  <a href="https://www.linkedin.com/in/itamarrocha/" target="_blank">**Itamar Rocha**</a>
 :---: 
-<img src="imgs/profile.JPG" width="300px"> </img>
+<img src="imgs/profile.JPG" width="100px"> </img>
 <a href="http://github.com/ItamarRocha" target="_blank">`github.com/ItamarRocha`</a>
 
 ---
