@@ -23,13 +23,12 @@
 Here are listed some of the projects presented in this repository:
 
 * [**ML practice**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/ML_practice)
-* [**Hospital Laureano data preprocessing script**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/blob/master/med/Laureano_filtered.py)
-* [**Metro flow analysis**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/metro)
-* [**Music emotions**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/emotions)
-* [**Live sellers with hierarchical clustering**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/blob/master/live%20sellers/Hierarchical_livesellers.ipynb)
-* [**Live sellers with Kmeans clustering**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/blob/master/live%20sellers/Kmeans.ipynb)
-* [**Einstein hospital - covid challenge**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/blob/master/covid_einstein/Untitled.ipynb)
-* [**Airbnb London**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/blob/master/airbnb/Airbnb.ipynb)
+* [**Hospital Laureano data preprocessing script**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/ML_practice/med)
+* [**Metro flow analysis**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/analysis/metro)
+* [**Music emotions**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/blob/master/analysis/emotions/emotions-final.ipynb)
+* [**Live sellers with hierarchical clustering and Kmeans clustering**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/analysis/live%20sellers)
+* [**Einstein hospital - covid challenge**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/blob/master/analysis/covid_einstein/Untitled.ipynb)
+* [**Airbnb London**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/analysis/airbnb)
 ---
 
 ## Projects:
@@ -48,7 +47,7 @@ Some of the projects I've worked on
 
  <a href="https://www.linkedin.com/in/itamarrocha/" target="_blank">**Itamar Rocha**</a>
 :---: 
-<img src="imgs/profile.JPG" width="300px"> </img>
+<img src="imgs/profile.JPG" width="100px"> </img>
 <a href="http://github.com/ItamarRocha" target="_blank">`github.com/ItamarRocha`</a>
 
 ---
