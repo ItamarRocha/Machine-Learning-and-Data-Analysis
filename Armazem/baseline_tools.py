@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 def naive_forecast(data):
     """
@@ -20,3 +21,11 @@ def moving_average(series, window_size):
     for time in range(len(series) - window_size): # if you dont subtract the window size, you'll not compute right in the last 30 examples
         forecast.append(series[time:time + window_size].mean())
     return np.array(forecast), data[window_size:]
+
+def plot_series(time, series, format = "-", start = 0, end = None, label = None):
+    plt.plot(time[start:end], series[start:end], format, label = label)
+    plt.xlabel("Time")
+    plt.ylabel("Value")
+    if label:
+        plt.legend(fontsize = 14)
+    plt.grid(True)
