@@ -1,6 +1,17 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+class LinearRegressor:
+    def execute(self, X, y):
+        X = np.array(X)
+        y = np.array(y)
+        XTX = np.dot(X.transpose(), X)
+        inverse = np.linalg.inv(XTX)
+        self.W = np.dot(np.dot(inverse, X.transpose()), y)
+    
+    def predict(self, X):
+        return [np.dot(self.W, d) for d in X]
+
 def naive_forecast(data):
     """
         Input : data to be forecasted
@@ -29,3 +40,16 @@ def plot_series(time, series, format = "-", start = 0, end = None, label = None)
     if label:
         plt.legend(fontsize = 14)
     plt.grid(True)
+
+def reverse_cumsum(series, initial = 0):
+	"""
+		Input: 
+			series : series with accumulated sum
+			initial : initial value to be subtracted
+
+		Return:
+			series subtracted
+	"""
+    series = series - series.shift(1).replace(np.nan, 0)
+    series[0] -= initial
+    return series
