@@ -50,6 +50,6 @@ def reverse_cumsum(series, initial = 0):
 		Return:
 			series subtracted
 	"""
-    series = series - series.shift(1).replace(np.nan, 0)
-    series[0] -= initial
-    return series
+	series = series - series.shift(1).replace(np.nan, 0)
+	series[0] -= initial
+	return series
