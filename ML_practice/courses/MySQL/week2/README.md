@@ -124,3 +124,39 @@ or you could just do:
 SELECT breed
 FROM dogs LIMIT 5,10;
 ```
+## SQL function and operators
+
+https://dev.mysql.com/doc/refman/5.7/en/sql-function-reference.html
+
+https://www.w3resource.com/mysql/mysql-functions-and-operators.php
+
+* IN operator
+
+Lets you select more than one string value
+
+```SQL
+SELECT dog_guid, breed
+FROM dogs
+WHERE breed IN ("golden retriever","poodle");
+```
+
+* LIKE operator
+
+The LIKE operator allows you to specify a pattern that the textual data you query has to match. For example, if you wanted to look at all the data from breeds whose names started with "s", you could query:
+
+```SQL
+SELECT dog_guid, breed
+FROM dogs
+WHERE breed LIKE ("s%");
+```
+
+In this syntax, the percent sign indicates a wild card. Wild cards represent unlimited numbers of missing letters. This is how the placement of the percent sign would affect the results of the query:
+
+* WHERE breed LIKE ("s%") = the breed must start with "s", but can have any number of letters after the "s"
+* WHERE breed LIKE ("%s") = the breed must end with "s", but can have any number of letters before the "s"
+* WHERE breed LIKE ("%s%") = the breed must contain an "s" somewhere in its name, but can have any number of letters before or after the "s"
+
+## Time 
+
+https://www.tutorialspoint.com/mysql/mysql-date-time-functions.htm
+
