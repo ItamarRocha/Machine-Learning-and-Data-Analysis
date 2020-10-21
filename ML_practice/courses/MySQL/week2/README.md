@@ -160,3 +160,172 @@ In this syntax, the percent sign indicates a wild card. Wild cards represent unl
 
 https://www.tutorialspoint.com/mysql/mysql-date-time-functions.htm
 
+* AS
+
+The AS clause allows you to assign an alias (a temporary name) to a table or a column in a table. Aliases can be useful for increasing the readability of queries, for abbreviating long names, and for changing column titles in query outputs. 
+
+```SQL
+SELECT dog_guid, created_at AS time_stamp
+FROM complete_tests
+LIMIT 100;
+```
+<table>
+    <tbody><tr>
+        <th>dog_guid</th>
+        <th>time_stamp</th>
+    </tr>
+    <tr>
+        <td>fd27b86c-7144-11e5-ba71-058fbc01cf0b</td>
+        <td>2013-02-05 18:26:54</td>
+    </tr>
+    <tr>
+        <td>fd27b86c-7144-11e5-ba71-058fbc01cf0b</td>
+        <td>2013-02-05 18:31:03</td>
+    </tr>
+    <tr>
+        <td>fd27b86c-7144-11e5-ba71-058fbc01cf0b</td>
+        <td>2013-02-05 18:32:04</td>
+    </tr>
+    <tr>
+        <td>fd27b86c-7144-11e5-ba71-058fbc01cf0b</td>
+        <td>2013-02-05 18:32:25</td>
+    </tr>
+    <tr>
+        <td>fd27b86c-7144-11e5-ba71-058fbc01cf0b</td>
+        <td>2013-02-05 18:32:56</td>
+    </tr>
+</tbody></table>
+
+* DISTINCT
+remove duplicate rows
+
+```SQL
+SELECT DISTINCT breed
+FROM dogs;
+```
+
+if you choose more than one column it will take all the combinations between these two columns
+
+* ORDER BY
+
+ORDER BY clause allow you to sort the output according to your own specifications.
+
+> Ascending order
+
+```SQL
+SELECT DISTINCT breed
+FROM dogs 
+ORDER BY breed;
+```
+
+> Descending order
+
+```SQL
+SELECT DISTINCT breed
+FROM dogs 
+ORDER BY breed DESC
+```
+
+```SQL
+SELECT DISTINCT user_guid, state, membership_type
+FROM users
+WHERE country="US" AND state IS NOT NULL and membership_type IS NOT NULL
+ORDER BY membership_type DESC, state ASC
+LIMIT 10;
+```
+
+> sorts by membershiptype in descending order first thand state by ascending order
+
+<table>
+    <tbody><tr>
+        <th>user_guid</th>
+        <th>state</th>
+        <th>membership_type</th>
+    </tr>
+    <tr>
+        <td>ce7f9a2a-7144-11e5-ba71-058fbc01cf0b</td>
+        <td>CA</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>ce80ec72-7144-11e5-ba71-058fbc01cf0b</td>
+        <td>CA</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>ce88fa84-7144-11e5-ba71-058fbc01cf0b</td>
+        <td>CA</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>ce815e0a-7144-11e5-ba71-058fbc01cf0b</td>
+        <td>CO</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>ce802602-7144-11e5-ba71-058fbc01cf0b</td>
+        <td>CT</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>ce7ff100-7144-11e5-ba71-058fbc01cf0b</td>
+        <td>FL</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>ce803a0c-7144-11e5-ba71-058fbc01cf0b</td>
+        <td>FL</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>ce804394-7144-11e5-ba71-058fbc01cf0b</td>
+        <td>FL</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>ce8756ac-7144-11e5-ba71-058fbc01cf0b</td>
+        <td>FL</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>ce80c184-7144-11e5-ba71-058fbc01cf0b</td>
+        <td>IN</td>
+        <td>5</td>
+    </tr>
+</tbody></table>
+
+## Exporting queries
+
+* To put the results of a query inside a variable:
+
+```SQL
+variable_name_of_your_choice = %sql [your full query goes here];
+```
+
+Example:
+
+```sql
+breed_list = %sql SELECT DISTINCT breed FROM dogs ORDER BY breed;
+```
+
+to export:
+
+```python
+breed_list.to_csv(f"{name}.csv")
+```
+
+* REPLACE
+
+"REPLACE(str,from_str,to_str)
+Returns the string str with all occurrences of the string from_str replaced by the string to_str. REPLACE() performs a case-sensitive match when searching for from_str."
+
+```SQL
+SELECT DISTINCT breed,
+REPLACE(breed,'-','') AS breed_fixed
+FROM dogs
+ORDER BY breed_fixed;
+```
+
+* TRIM
+
+https://www.w3resource.com/mysql/string-functions/mysql-trim-function.php
