@@ -329,3 +329,7 @@ ORDER BY breed_fixed;
 * TRIM
 
 https://www.w3resource.com/mysql/string-functions/mysql-trim-function.php
+
+## TERADATA
+
+Database ua_dillards;
