@@ -78,7 +78,7 @@ WHERE d.dog_guid=r.dog_guid
 
 I find this syntax -- called the "equijoin" syntax -- to be very intuitive, so I thought it would be a good idea to start with it.  However, we can re-write the inner joins in the same syntax used by outer joins.  To use this more traditional syntax, you have to tell the database how to connect the tables using an ON clause that comes right after the FROM clause.  Make sure to specify the word "JOIN" explicitly.  This traditional version of the syntax frees up the WHERE clause for other things you might want to include in your query.  Here's what one of our queries from the inner join lesson would look like using the traditional syntax:
 
-```mySQL
+```sql
 SELECT d.dog_guid AS DogID, d.user_guid AS UserID, AVG(r.rating) AS AvgRating, COUNT(r.rating) AS NumRatings, d.breed, d.breed_group, d.breed_type
 FROM dogs d JOIN reviews r
   ON d.dog_guid=r.dog_guid AND d.user_guid=r.user_guid
@@ -94,11 +94,23 @@ If you need a WHERE clause in the query above, it would go after the ON clause a
 
 Here's an example of a different query we used in the last lesson that employed the equijoin syntax:
 
-```mySQL
+```sql
 SELECT d.user_guid AS UserID, d.dog_guid AS DogID, 
        d.breed, d.breed_type, d.breed_group
 FROM dogs d, complete_tests c
 WHERE d.dog_guid=c.dog_guid AND test_name='Yawn Warm-up';
 ```
 
-**Question 1: How would you re-write this query using the traditional join syntax?**
+Other example
+
+```sql
+SELECT r.dog_guid AS rDogID, d.dog_guid AS dDogID, r.user_guid AS rUserID, d.user_guid AS dUserID, AVG(r.rating) AS AvgRating, COUNT(r.rating) AS NumRatings, d.breed, d.breed_group, d.breed_type
+FROM reviews r LEFT JOIN dogs d
+  ON r.dog_guid=d.dog_guid AND r.user_guid=d.user_guid
+WHERE d.dog_guid IS NULL
+GROUP BY r.dog_guid
+HAVING NumRatings >= 10
+ORDER BY AvgRating DESC;
+```
+
+* Outer joins are not supported in mysql
