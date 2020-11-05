@@ -7,6 +7,8 @@
 
 - [Analysis and practice](#analysis-and-practice)
 - [Projects](#projects)
+- [Tutorials](#tutorials)
+- [Class Work](#class-work)
 - [Clone](#clone)
 - [Author](#author)
 - [Support](#support)
@@ -18,13 +20,14 @@
 ## Analysis and practice:
 Here are listed some of the projects presented in this repository:
 
-* [**ML practice**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/ML_practice)
-* [**Hospital Laureano data preprocessing script**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/ML_practice/med)
-* [**Metro flow analysis**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/analysis/metro)
-* [**Music emotions**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/blob/master/analysis/emotions/emotions-final.ipynb)
-* [**Live sellers with hierarchical clustering and Kmeans clustering**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/analysis/live%20sellers)
-* [**Einstein hospital - covid challenge**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/blob/master/analysis/covid_einstein/Untitled.ipynb)
-* [**Airbnb London**](https://github.com/ItamarRocha/Data-Analysis-and-Manipulation/tree/master/analysis/airbnb)
+* [**Armazém Paraíba**](https://github.com/ItamarRocha/Machine-Learning-and-Data-Analysis/tree/master/analysis/Armazem)
+> Notebooks containing some of the data analysis and time series forecasting done for Armazém Paraíba
+* [**London's Airbnb**](https://github.com/ItamarRocha/Machine-Learning-and-Data-Analysis/tree/master/analysis/airbnb)
+> Notebook and Python script with data analysis of London's Airbnb, along with a streamlit visualization and filtering tool
+* [**Metro flow analysis**](https://github.com/ItamarRocha/Machine-Learning-and-Data-Analysis/tree/master/analysis/metro)
+* [**Music emotions**](https://github.com/ItamarRocha/Machine-Learning-and-Data-Analysis/tree/master/analysis/emotions)
+* [**Live sellers with hierarchical clustering and Kmeans clustering**](https://github.com/ItamarRocha/Machine-Learning-and-Data-Analysis/tree/master/analysis/live%20sellers)
+* [**Einstein hospital - covid challenge**](https://github.com/ItamarRocha/Machine-Learning-and-Data-Analysis/tree/master/analysis/covid_einstein)
 ---
 
 ## Projects:
@@ -32,7 +35,17 @@ Some of the projects I've worked on
 
 * [**Binary Bot**](https://github.com/ItamarRocha/binary-bot)
 * [**Bass tab generator**](https://github.com/joallace/bass-generator)
-* [**Medway Student allocation**](https://github.com/ItamarRocha/Operations-Research/tree/master/projects/medway)
+* [**Medway Student allocation**](https://itamarrocha.github.io/2020/08/08/Medway-Student-Allocation.html)
+* [**Helper Brasil Conta Comigo**](https://itamarrocha.github.io/2020/10/29/Helper-BCM.html)
+> The application can be acessed at https://mysterious-chamber-69490.herokuapp.com
+
+## Tutorials:
+
+* [**Introduction to PyCaret**](https://github.com/TailUFPB/Tutorials/tree/main/Pycaret)
+
+
+## Class Work:
+
 
 ## Clone
 
