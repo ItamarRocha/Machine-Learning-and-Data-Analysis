@@ -1,0 +1,10 @@
+/*
+Enter your query below.
+Please append a semicolon ";" at the end of the query
+*/
+
+SELECT c.NAME, d.PRICE
+FROM CUSTOMERS c JOIN ORDERS d ON c.ORDER_ID = d.ID
+WHERE YEAR(ORDER_DATE) <= YEAR(DATE_ADD((SELECT MIN(ORDER_DATE) FROM ORDERS), INTERVAL 10 YEAR))
+ORDER BY d.PRICE DESC
+LIMIT 1;
