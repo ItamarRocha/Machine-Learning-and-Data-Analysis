@@ -9,6 +9,7 @@
 - [Projects](#projects)
 - [Tutorials](#tutorials)
 - [Class Work](#class-work)
+- [Hackathons](#hackathons)
 - [Clone](#clone)
 - [Author](#author)
 - [Support](#support)
@@ -17,8 +18,10 @@
 
 ---
 
-## Analysis and practice:
+## Analysis and practice
 Here are listed some of the projects presented in this repository:
+
+### Analysis
 
 * [**Armazém Paraíba**](https://github.com/ItamarRocha/Machine-Learning-and-Data-Analysis/tree/master/analysis/Armazem)
 > Notebooks containing some of the data analysis and time series forecasting done for Armazém Paraíba
@@ -28,9 +31,15 @@ Here are listed some of the projects presented in this repository:
 * [**Music emotions**](https://github.com/ItamarRocha/Machine-Learning-and-Data-Analysis/tree/master/analysis/emotions)
 * [**Live sellers with hierarchical clustering and Kmeans clustering**](https://github.com/ItamarRocha/Machine-Learning-and-Data-Analysis/tree/master/analysis/live%20sellers)
 * [**Einstein hospital - covid challenge**](https://github.com/ItamarRocha/Machine-Learning-and-Data-Analysis/tree/master/analysis/covid_einstein)
+
+### Scratch Implementations
+
+* [**Linear regressosion**](https://github.com/ItamarRocha/Machine-Learning-and-Data-Analysis/tree/master/scratch/regressions)
+* [**Neural Network with Adam Optimization**](https://github.com/ItamarRocha/Machine-Learning-and-Data-Analysis/tree/master/scratch/NN)
+
 ---
 
-## Projects:
+## Projects
 Some of the projects I've worked on
 
 * [**Binary Bot**](https://github.com/ItamarRocha/binary-bot)
@@ -39,13 +48,20 @@ Some of the projects I've worked on
 * [**Helper Brasil Conta Comigo**](https://itamarrocha.github.io/2020/10/29/Helper-BCM.html)
 > The application can be acessed at https://mysterious-chamber-69490.herokuapp.com
 
-## Tutorials:
+## Tutorials
 
 * [**Introduction to PyCaret**](https://github.com/TailUFPB/Tutorials/tree/main/Pycaret)
 
 
-## Class Work:
+## Class Work
 
+* [**Operations Research Class 2019.4**](https://github.com/ItamarRocha/Operations-Research)
+* [**Deep Learning Class 2020.1**](https://github.com/jpvt/Deep_Learning)
+
+## Hackathons
+
+* [**OAB Hackathon**](https://github.com/TailUFPB/Hackathon-OAB)
+> The application can be acessed at hermes-saude.herokuapp.com/home
 
 ## Clone
 
