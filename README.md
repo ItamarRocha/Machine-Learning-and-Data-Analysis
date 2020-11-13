@@ -61,7 +61,7 @@ Some of the projects I've worked on
 ## Hackathons
 
 * [**OAB Hackathon**](https://github.com/TailUFPB/Hackathon-OAB)
-> The application can be acessed at hermes-saude.herokuapp.com/home
+> The application can be acessed at https://hermes-saude.herokuapp.com/home
 
 ## Clone
 
