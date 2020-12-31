@@ -12,6 +12,7 @@
 - [Hackathons](#hackathons)
 - [Clone](#clone)
 - [Author](#author)
+- [Resume](#resume)
 - [Support](#support)
 - [License](#license)
 
@@ -76,6 +77,11 @@ Some of the projects I've worked on
 :---: 
 <img src="imgs/profile.JPG" width="100px"> </img>
 <a href="http://github.com/ItamarRocha" target="_blank">`github.com/ItamarRocha`</a>
+
+---
+## Resume
+
+Check my resume out at https://itamarrocha.github.io/docs/itamar_resume.pdf
 
 ---
 
