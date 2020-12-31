@@ -47,6 +47,7 @@ Some of the projects I've worked on
 * [**Medway Student allocation**](https://itamarrocha.github.io/2020/08/08/Medway-Student-Allocation.html)
 * [**Helper Brasil Conta Comigo**](https://itamarrocha.github.io/2020/10/29/Helper-BCM.html)
 > The application can be acessed at https://mysterious-chamber-69490.herokuapp.com
+* [**Gandido Portinari**](https://github.com/ItamarRocha/GANdido-Portinari)
 
 ## Tutorials
 
