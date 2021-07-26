@@ -12,6 +12,7 @@
 - [Hackathons](#hackathons)
 - [Clone](#clone)
 - [Author](#author)
+- [Resume](#resume)
 - [Support](#support)
 - [License](#license)
 
@@ -47,6 +48,7 @@ Some of the projects I've worked on
 * [**Medway Student allocation**](https://itamarrocha.github.io/2020/08/08/Medway-Student-Allocation.html)
 * [**Helper Brasil Conta Comigo**](https://itamarrocha.github.io/2020/10/29/Helper-BCM.html)
 > The application can be acessed at https://mysterious-chamber-69490.herokuapp.com
+* [**Gandido Portinari**](https://github.com/ItamarRocha/GANdido-Portinari)
 
 ## Tutorials
 
@@ -58,7 +60,7 @@ Some of the projects I've worked on
 * [**Operations Research Class 2019.4**](https://github.com/ItamarRocha/Operations-Research)
 * [**Deep Learning Class 2020.1**](https://github.com/jpvt/Deep_Learning)
 * [**Digital Image Processing 2020.1**](https://github.com/jpvt/Digital_Image_Processing)
-
+> First work application : https://opendip.herokuapp.com
 ## Hackathons
 
 * [**OAB Hackathon**](https://github.com/TailUFPB/Hackathon-OAB)
@@ -75,6 +77,11 @@ Some of the projects I've worked on
 :---: 
 <img src="imgs/profile.JPG" width="100px"> </img>
 <a href="http://github.com/ItamarRocha" target="_blank">`github.com/ItamarRocha`</a>
+
+---
+## Resume
+
+Check my resume out at https://itamarrocha.github.io/docs/itamar_resume.pdf
 
 ---
 
